@@ -1,0 +1,38 @@
+#header {
+  text-align: center;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  height: 25rem;
+  border: 1px solid black;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid black;
+}
+.input-div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: fit-content;
+  width: 16rem;
+  margin: 0.5rem;
+}
+.input-box {
+  height: fit-content;
+  width: 10rem;
+}
+.btn {
+  width: 5rem;
+  margin-top: 0.5rem;
+}
+#name-input-div {
+}
